@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Photography</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- owl-carousel link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- my style sheet -->
+
+    <link rel="stylesheet" href="./wedding.css">
+
+</head>
+
+<body>
+
+
+    <!-- Starting the nav and home sectoin here -->
+
+    <section class="sectoinOne" id="Home">
+        <div id="main_nav_fix" class="secOneOne py-1 py-md-3">
+
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="MainLogo d-flex align-items-center justify-content-center">
+                            <img src="https://pbs.twimg.com/profile_images/858259960840499201/U1Tji1JT_400x400.jpg"
+                                alt="LOGO">
+                            <h5 class="d-none d-sm-block fs-6 pt-1">
+                                <marquee behavior="scroll" direction="left" class="fw-bold">
+                                    WE CAPTURE YOUR MOMENTS!!
+                                    <i class="bi bi-balloon-heart-fill text-danger"></i>
+                                </marquee>
+                            </h5>
+                        </div>
+
+                        <div class="ms-3">
+                            <button class="toggleNav d-block d-lg-none " type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                <div class="d-block d-lg-none fs-1">
+                                    <span><i class="bi bi-justify fs-1 text-light"></i></span>
+                                </div>
+                            </button>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class=" d-flex justify-content-evenly align-items-center">
+                        <div class="d-none d-lg-block">
+
+                            <ul class="nav">
+
+                                <li class="px-2 mx-2 homeOne"><a href="#">Home <i class="bi bi-caret-down-fill"></i></a>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="../index.html">home 1</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">home 2</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="px-2 mx-2 homeOne"><a href="#">About<i class="bi bi-caret-down-fill"></i></a>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                                href="./aboutIndex.html">About Me</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                                href="../AboutUSPage/AboutUsIndex.html">About Us</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="px-2 mx-2 homeOne"><a href="#">Services<i
+                                            class="bi bi-caret-down-fill"></i></a>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Pre Wedding</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Wedding</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Photoshoot</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Out-door</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">in-door</a></li>
+                                    </ul>
+
+                                </li>
+
+                                <li class="px-2 mx-2 homeOne"><a href="#">Contact</a>
+
+                                    <!-- <ul class="hiddenUL">
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 1</li>
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 2</li>
+                                        </ul> -->
+
+                                </li>
+
+                            </ul>
+
+
+                            <!-- Login Modals Start Here -->
+
+
+
+                            <!-- Login Modals ended Here -->
+                        </div>
+
+
+
+                        <div class="bookBtn ms-3  py-lg-2 d-flex justify-content-around align-items-center">
+
+                            <div class="loginMainSection">
+
+
+                                <li class="list-unstyled px-2 mx-2 homeOne"><b>Login</b><i
+                                        class="bi bi-caret-down-fill"></i>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>
+                                            <button data-bs-toggle="modal" data-bs-target="#exampleModalAdmin">
+                                                Admin Login
+                                            </button>
+                                        </li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <button
+                                                data-bs-toggle="modal" data-bs-target="#exampleModalUser">
+                                                User Login
+                                            </button>
+                                        </li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>
+                                            <button data-bs-toggle="modal" data-bs-target="#exampleModalRegis">
+                                                Registration
+                                            </button>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                            </div>
+                            <div>
+                                <button class="btn btn-danger">
+                                    <a href="#" class="">
+                                        Book Date!
+                                    </a>
+                                </button>
+                            </div>
+
+                            <!-- modal code here -->
+
+                            <!-- Button trigger modal -->
+
+
+                            <!-- Modal Admin -->
+                            <div class="modal fade" id="exampleModalAdmin" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Admin Login</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark text-light">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        required>
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1" required>
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer bg-dark text-light">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal Admin -->
+
+                            <!-- Modal User -->
+
+                            <div class="modal fade" id="exampleModalUser" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">User Login</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark text-light">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        required>
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1" required>
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1"
+                                                        required>
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer bg-dark text-light">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal User -->
+
+
+
+                            <!-- Modal Registration -->
+
+                            <div class="modal fade" id="exampleModalRegis" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Registration</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark text-light">
+                                            <form class="fs-6">
+                                                <div class="mb-3 d-flex justify-content-between align-items-center">
+                                                    <div class="container">
+                                                        <label for="exampleInputEmail1" class="form-label">User
+                                                            Name</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            placeholder="Name" required>
+                                                    </div>
+                                                    <div class="container">
+
+                                                        <label for="exampleInputEmail1" class="form-label">Email
+                                                            address</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            placeholder="Email" required>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="mb-3 d-flex justify-content-between align-items-center">
+
+                                                    <div class="container">
+
+                                                        <label for="exampleInputPassword1"
+                                                            class="form-label">Password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="Password" required>
+                                                    </div>
+
+                                                    <div class="container">
+
+                                                        <label for="exampleInputPassword1" class="form-label">Confirm
+                                                            Password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="C Password"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1"
+                                                        required>
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer bg-dark text-light">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal Regiatration -->
+
+                            <!-- modal code here -->
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 70%;">
+            <div class="offcanvas-header bg-dark text-light">
+                <h5 class="offcanvas-title text-light w-100" id="offcanvasWithBothOptionsLabel">
+
+                    <div class="MainLogo d-flex align-items-center justify-content-between">
+
+                        <div>
+
+                            <img src="https://pbs.twimg.com/profile_images/858259960840499201/U1Tji1JT_400x400.jpg"
+                                alt="LOGO" />
+                        </div>
+
+                        <div>
+                            <span>
+                                <a href="#" class="text-decoration-none text-light fs-6">Galary</a>
+                            </span>
+
+                        </div>
+                    </div>
+
+                </h5>
+                <span class=" ms-5" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa-solid fa-circle-xmark text-light"></i></span>
+            </div>
+            <div class="offcanvas-body bg-dark">
+
+                <div class="container">
+                    <div class="d-block">
+
+                        <ul class="MobileViewNav1">
+
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Home <i
+                                        class="bi bi-caret-down-fill"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="../index.html">home 1</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">home 2</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">About<i
+                                        class="bi bi-caret-down-fill"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="./AboutPage/aboutIndex.html">About Me</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="../AboutUSPage/AboutUsIndex.html">About Us</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Services<i
+                                        class="bi bi-caret-down-fill"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Pre Wedding</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Wedding</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Photoshoot</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Out-door</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">in-door</a></li>
+                                </ul>
+
+                            </li>
+                            <!-- <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Login<i
+                                        class="bi bi-arrow-down-short ms-0"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a href="#">
+                                            Admin Login
+                                        </a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="#">Login</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="#">Registration</a></li>
+                                </ul>
+
+                            </li> -->
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Contact</a>
+
+                                <!-- <ul class="hiddenUL">
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 1</li>
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 2</li>
+                                        </ul> -->
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="w-75">
+                        <p class="d-flex justify-content-around align-items-center">
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-facebook"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-instagram"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-linkedin"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-pinterest"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-whatsapp"></i></a></span>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="HomeSection">
+
+
+            <div class="homeImage d-flex justify-content-center align-items-center">
+                <div class="text-center text-light">
+
+                    <div class="d-flex justify-content-around gap-4 text-light">
+                        <div>
+                            <a href="../index.html" class="text-decoration-none text-light fw-bolder">HOME</a>
+                        </div>
+                        <strong>/</strong>
+                        <div>
+                            <a href="../AboutUSPage/AboutUsIndex.html"
+                                class="text-decoration-none text-light fw-bolder">ABOUT US</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- Ending the nav and home sectoin here -->
+
+
+    <section class="sectionTwo  text-dark py-3 py-md-5">
+        <div class="container">
+
+
+            <div class="row py-md-3 row-cols-2 row-cols-lg-4">
+                <div class="col py-3 ">
+                    <div class="card secTwoCart">
+                        <img src="https://media.istockphoto.com/id/1141906552/photo/indian-hindu-couple-holding-each-other-hands-during-their-marriage-symbolising-love-and.jpg?s=612x612&w=0&k=20&c=brG8OkGBo5-tIABHlnGtVMu9X4lAC8ebpqGA2Xire6E="
+                            class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-3 ">
+                    <div class="card secTwoCart">
+                        <img src="https://media.istockphoto.com/id/499534555/photo/indian-ceremony.jpg?s=612x612&w=0&k=20&c=ubcdUKtzvUtegiMeInY2hlpt2Ni8_8u0AZAnYggYklw="
+                            class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-3 ">
+                    <div class="card secTwoCart">
+                        <img src="https://media.istockphoto.com/id/139984865/photo/indian-wedding-mandap.jpg?s=612x612&w=0&k=20&c=o86xHovWUTwVUr7wZJcTi_qurKufhLMRpsgRsZqW3Ng="
+                            class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-3 ">
+                    <div class="card secTwoCart">
+                        <img src="https://media.istockphoto.com/id/1190043570/photo/happy-wedding-photography-of-bride-and-groom-at-wedding-ceremony-wedding-tradition-sprinkled.jpg?s=612x612&w=0&k=20&c=_aCIW5-iOIiaDdqin_50kvBcbFbIxSULHHamPUILE0c="
+                            class="card-img-top" alt="..." class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- section three start here -->
+
+    <section class="sectionThree py-3 d-flex justify-content-center align-items-center flex-row">
+
+        <div class="mx-auto container text-light py-2 py-md-3  secThreeOne">
+
+            <div class="py-3 py-md-4 text-center my-md-3">
+                <strong class="fs-1  text-capitalize">
+                    Tell us When to come!!
+                </strong>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-5 py-3 py-md-4">
+                    <div class="container">
+                        <div class="row row-cols-2">
+                            <div class="col">
+                                <img src="../IMAGES/jonathan-borba-JLmNneTy5CQ-unsplash.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="../IMAGES/jonathan-borba-N8l5Xl_Liic-unsplash.jpg" class="img-fluid" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7 secThreeForm">
+                    <div class="container">
+
+                        <form class="row gap-0" action="" method="" autocomplete="on">
+                            <div class="col-md-6 py-1">
+                                <label for="inputName" class="form-label fw-bold">Your Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                            </div>
+                            <div class="col-md-6 py-1">
+                                <label for="inputEmail4" class="form-label fw-bold">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                            </div>
+                            <div class="col-md-6 py-1">
+                                <label for="inputAddress" class="form-label fw-bold">Wedding Address</label>
+                                <input type="text" class="form-control" id="inputAddress"
+                                    placeholder="Nagpur,Maharashtra." required>
+                            </div>
+                            <div class="col-md-6 py-1">
+                                <label for="inputAddress2" class="form-label fw-bold">Choose Date</label>
+                                <input type="date" class="form-control" id="inputAddress2" placeholder="DD/MM/YY"
+                                    required>
+                            </div>
+                            <div class="col-md-6 py-1">
+                                <label for="inputCity" class="form-label fw-bold">City</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="..." required>
+                            </div>
+                            <div class="col-md-4 py-1">
+                                <label for="inputState" class="form-label fw-bold">State</label>
+                                <select id="inputState" class="form-select" required>
+                                    <option selected>Maharashtra</option>
+                                    <option>Madhya Pradesh</option>
+                                    <option>Chhattisghar</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2 py-1">
+                                <label for="inputZip" class="form-label fw-bold">Coupen</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+
+                            <div class="col-12 py-1">
+
+
+                                <div class="row">
+
+
+                                    <div class=" col-12 col-md-6">
+
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label fw-bold d-block">Extra
+                                                Info<sup>n</sup></label>
+                                            <textarea name="message" class="form-control" id="" rows="4" placeholder="Anything else!.."></textarea>
+                                            <!-- <input type="text" class="form-control" id="inputAddress" placeholder="09 Am To 05 Pm" required> -->
+                                        </div>
+
+                                    </div>
+
+
+                                    <div
+                                        class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+
+                                        <div class=" col-12 col-md-12">
+                                            <label for="inputAddress" class="form-label fw-bold">Time</label>
+                                            <input type="text" class="form-control" id="inputAddress"
+                                                placeholder="09 Am To 05 Pm" required>
+                                        </div>
+                                        <!-- <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                            <label class="form-check-label fw-bold" for="gridCheck">
+                                                Check me out
+                                            </label>
+                                        </div>
+                                    </div> -->
+                                        <div class="col-12 py-3 py-md-4">
+                                            <button type="submit" class="btn btn-primary w-100">Confirm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- section three ends here -->
+
+    <!-- section four ends here -->
+
+
+    <section class="sectionFour py-4 ">
+        <div class="container py-md-5 ">
+            <div class="py-2">
+                <strong>
+                    Have any query!!
+                </strong>
+            </div>
+
+            <div class="bg-dark text-light">
+                <div class="bg-dark text-light accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header ">
+                            <button
+                                class="shadow accordion-button collapsed bg-body-secondary text-dark rounded rounded-2"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                aria-controls="flush-collapseOne">
+                                Faq's
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div>
+                                    <div class="accordion accordion-flush" id="accordionFlushExampleTwo">
+
+                                        <div class="row row-cols-1 row-cols-md-2">
+                                            <div class="col py-2 py-md-4">
+
+                                                <div class="accordion-item">
+
+                                                    <h2 class="accordion-header">
+                                                        <button
+                                                            class="shadow accordion-button collapsed bg-body-secondary text-dark rounded rounded-2"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseOneOne" aria-expanded="false"
+                                                            aria-controls="flush-collapseOne">
+                                                            Detail process of the order??
+                                                        </button>
+                                                    </h2>
+
+                                                    <div id="flush-collapseOneOne" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExampleTwo">
+                                                        <div class="accordion-body">
+
+                                                            Lorem ipsum dolor sit amet.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col py-2 py-md-4">
+
+                                                <div class="accordion-item">
+
+                                                    <h2 class="accordion-header">
+                                                        <button
+                                                            class="shadow accordion-button collapsed bg-body-secondary text-dark rounded rounded-2"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseOneTwo" aria-expanded="false"
+                                                            aria-controls="flush-collapseOne">
+                                                            What if The function pushponded?
+                                                        </button>
+                                                    </h2>
+
+                                                    <div id="flush-collapseOneTwo" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExampleTwo">
+                                                        <div class="accordion-body">
+
+                                                            Lorem ipsum dolor sit amet.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col py-2 py-md-4">
+                                                <div class="accordion-item">
+
+                                                    <h2 class="accordion-header">
+                                                        <button
+                                                            class="shadow accordion-button collapsed collapsed bg-body-secondary text-dark rounded rounded-2"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseOneThree"
+                                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                                            Regarding the Packages?
+                                                        </button>
+                                                    </h2>
+
+                                                    <div id="flush-collapseOneThree" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExampleTwo">
+                                                        <div class="accordion-body">
+
+                                                            Lorem ipsum dolor sit amet.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col py-2 py-md-4">
+                                                <div class="accordion-item">
+
+                                                    <h2 class="accordion-header">
+                                                        <button
+                                                            class="shadow accordion-button collapsed collapsed bg-body-secondary text-dark rounded rounded-2"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseOneFour"
+                                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                                            How do i know about my album?
+                                                        </button>
+                                                    </h2>
+
+                                                    <div id="flush-collapseOneFour" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExampleTwo">
+                                                        <div class="accordion-body">
+
+                                                            Lorem ipsum dolor sit amet.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section four ends here -->
+
+
+    <!-- Starting the eight section -->
+    <section class="sectionEight text-light py-3 pt-md-4 pb-md-3">
+        <div class="container">
+            <div class="d-sm-flex justify-content-between align-items-center">
+                <div>
+                    <p>Copyright 2024, vsphotography. All right reserved</p>
+                </div>
+                <div>
+                    <p class="d-flex justify-content-around align-items-center">
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-facebook"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-instagram"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-linkedin"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-pinterest"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-whatsapp"></i></a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ending the eight section -->
+
+    <!-- Bootstrap js CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Counter CDN -->
+    <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"></script>
+
+    <!-- my script -->
+    <script src="./wedding.js"></script>
+
+</body>
+
+</html>

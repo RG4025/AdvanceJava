@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Thu Feb 15 15:48:11 IST 2024
+org.eclipse.jst.jee.server\:HomeWork14=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\HomeWork14
+org.eclipse.jst.jee.server\:ClassWorkFeb15=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\ClassWorkFeb15
+org.eclipse.jst.jee.server\:ServletForm=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\ServletForm
+org.eclipse.jst.jee.server\:ServletFirst=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\ServletFirst

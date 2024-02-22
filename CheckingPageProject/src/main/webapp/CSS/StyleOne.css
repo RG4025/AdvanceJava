@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+/* section one css srarts here  */
+
+.sectoinOne {
+    position: relative;
+}
+
+Main img{
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.secOneOne {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: transparent;
+    /* -webkit-backdrop-filter: saturate(180%) blur(50px);
+    backdrop-filter: saturate(180%) blur(50px); */
+    color: white;
+}
+
+.hiddenUL {
+    /* visibility:hidden;   */
+    transition: all 0.5a ease;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(29, 29, 29);
+    visibility: hidden;
+    opacity: 0;
+    width: 300%;
+    /* padding: 10px 10px; */
+    z-index: 999;
+    text-align: left;
+    box-shadow: inset 0 0 0 1px rgba(99, 99, 99, 0.1);
+    -webkit-box-shadow: inset 0 0 0 1px rgba(99, 99, 99, 0.1);
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.homeOne {
+    position: relative;
+}
+
+.homeOne a{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.homeOne:hover .hiddenUL {
+    visibility: visible;
+    opacity: 1;
+    top: 230%;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.hiddenUL li {
+    transition: all ease 0.5s;
+}
+
+
+.hiddenUL li:hover {
+    background-color: rgba(207, 206, 206, 0.1);
+    color: white;
+    -webkit-box-shadow: inset 3px 0 0 0 rgb(229, 201, 38);
+    box-shadow: inset 3px 0 0 0 rgb(229, 201, 38);
+}
+
+.hiddenUL i{
+    color: white;
+    font-size: 15px;
+    margin-right: 5px;
+    transition: all ease 0.5s;
+}
+.hiddenUL li:hover i{
+    color: rgb(229, 201, 38);
+    margin-right: 8px;
+    
+}
+
+
+.MainLogo img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid aqua;
+
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carouselContent{
+    position: absolute;
+    inset: 30% 0 0 0 ;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* ----- offcanvas css ------- */
+
+.offcanvas-body{
+    /* height: 500px;
+    padding: 50px 0px; */
+    overflow-x: hidden;
+}
+
+.offcanvas{
+    width: 70%;
+}
+
+.toggleNav {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.bookBtn{
+    border-radius: 5px;
+}
+
+.bookBtn a{
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.mobileViewNav{
+    background-color: transparent;
+    -webkit-box-shadow: inset 3px 0 0 0 rgb(229, 201, 38);
+    box-shadow: inset 3px 0 0 0 rgb(229, 201, 38);
+}
+
+.MobileViewNav1 .MobileViewNav2{
+    padding: 10px 0px ;
+    border-bottom: 1px solid gray;
+}
+
+/* ----- offcanvas css ------ */
+
+
+/* home page css */
+
+
+.secOneHeadOne small{
+    color: gold;
+    font-size: 14px;
+}
+.secOneHeadOne h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 5px solid gold;
+    width: 50%;
+    display: inline;
+}
+
+.secOneHeadTwo p{
+    color: white;
+    text-align: left;
+}
+
+.secOneHeadTwo button{
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 3px;
+    padding: 3px 4px;
+}
+
+/* home page css */
+
+/* section one css ends here  */
+
+
+/* section two css  */
+
+.secTwoOne{
+    background-color: #212529;
+    color: #fff;
+}
+
+.secTwoTwo{
+    background-color: #4a4d51;
+    position: relative;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: rgba(146, 146, 152, 0.1) 0px 4px 16px, rgba(173, 173, 176, 0.1) 0px 8px 24px, rgba(135, 135, 150, 0.1) 0px 16px 56px;
+}
+
+.counterContent{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px 0px 10px 0px ;
+}
+.secTwoTwo span{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.counter{
+    font-size: 15px;
+}
+
+
+.loginMainSection select{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 60px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+/* section two css  */
+
+
+/* Modal CSS */
+
+.modal-backdrop.fade.show{
+    opacity: 0;
+    z-index: -1;
+}
+
+.hiddenUL button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+}
+
+/* Modal CSS */
+
+    
+/* section three Css start */
+
+    .sectionThird{
+        background-image: url('../IMAGES/emmanuel-acua-f3P6xfrj2P8-unsplash.jpg');
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        width: 100%;
+        background-size: cover;
+        height: 150vh;
+        position: relative;
+    }
+    .secThirdOne{
+        background: black;
+        opacity: 0.7;
+        /* z-index: -1; */
+        width: inherit;
+        height: inherit;
+        position: relative;
+    }
+
+    .secThirdOneChild{
+        z-index: 99;
+        position: absolute;
+        inset: 0 0 0 0;
+        color: white;
+        opacity: 1;
+    }
+
+    .secThreeThree small{
+        color: gold;
+        font-weight: 600;
+        word-spacing: 1px;
+        letter-spacing: 4px;
+    }
+
+    .secThreeThree h2{
+        letter-spacing: 3px;
+    }
+    .secThreeThree p{
+        color: #B0B0B0;
+        line-height: 30px;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .secThreeTwo{
+        overflow: hidden;
+    }
+    
+    .secThreeTwo img{
+        transition: all ease-out 2s;
+
+    }
+
+    .secThreeTwo img:hover{
+        transform: scale(1.90);
+    }
+   
+
+/* section three Css end */
+
+
+/* section Four Css start */
+
+.secFourOne span{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    border-bottom: 2px solid gold;
+}
+
+.sectionFour img{
+    height : 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    transition: all ease-out 0.7s;
+}
+
+.sectionFour img:hover{
+    transform: scale(1.05);
+}
+
+.card-title{
+    color: crimson;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.card-text{
+    color: #4a4d51;
+    font-weight: 600;
+
+}
+
+.servicesCard{ 
+    box-shadow: inset(white,00.5a);
+}
+/* section Four Css end */
+
+
+/* section Five Css start */
+
+.carouselMain img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: all ease-in 1s;
+}
+
+.secFiveOne span{
+    font-size: 10px;
+}
+
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .owl-dot {
+    display: block;
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid #15C79F !important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+} */
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: #15C79F !important;
+}
+
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+    position: absolute;
+    right: 10%;
+    top: -15%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding-bottom: 2px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 1s;
+}
+.owl-carousel .owl-nav button.owl-next {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 0px !important;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 1s;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color:#4a4d51;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-color:#4a4d51;
+}
+
+.photographer{
+    position: relative;
+    overflow: hidden;
+    opacity: 0.9;
+    transition: all ease-in-out 1s;
+}
+
+.photographer:hover{
+    transform:scale(1.05);
+    opacity: 1;
+}
+
+
+.photographerDetails{
+    background-color: aqua;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    width: 93%;
+    color: #212529;
+    margin: 0 auto;
+}
+
+/* section Five Css end */
+
+
+/* section Six Css start */
+
+.sectionSix{
+    background-color: black;
+}
+
+.secSixOne img{
+    /* width: 100%; */
+    height: 300px;
+}
+
+.secSixTwo h3{
+    color: #977E4F;
+    font-weight: 700;
+}
+.secSixTwo strong{
+    color: #977E4F;
+}
+
+.secSixOne{
+    overflow: hidden;
+}
+
+.secSixThree img{
+    background-attachment: fixed; 
+    /* object-fit:cover; */
+}
+
+/* section Six Css end */
+
+
+
+/* section seven css start */
+
+
+
+.sectionNine{
+    /* background-color: #040637;
+    color: white;
+    font-size: 13px; */
+}
+
+.sectionNine li{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footerLogo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0rem;
+}
+
+
+
+.secNineTwo {
+    background-color: #EEF4F3;
+    padding: 20px 25px;
+}
+
+
+
+.secNineTwo input{
+    outline: none;
+    border: none;
+    width: 60%;
+    background-color: transparent;
+}
+
+.goToHome{
+    width: 40px;
+    height: 40px;
+    /* background-color: crimson; */
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+/* section seven css end */
+
+
+/* section eight css start */
+
+    .sectionEight{
+        background-color: #2d2e2f;
+        
+    }
+
+/* section eight css end */
+
+@media(min-width:512px){
+    .secFiveOne span{
+        font-size: 15px;
+    }
+
+    .owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secFourOne span{
+        padding: 0 20px;
+    }
+}
+
+
+@media(min-width:768px){
+    
+    .bookBtn a{
+        font-size: 13px;
+    }
+
+    .MobileViewNav1 .MobileViewNav2{
+        padding: 10px 0px ;
+        border-bottom: 1px solid gray;
+        border-width: 50%;
+        width: 50%;
+    }
+
+    .carouselContent{
+        width: 60%;
+        margin-left: 30px;
+    }
+
+    .secTwoTwo span{
+        font-size: 30px;
+    }
+
+    .secFiveOne span{
+        font-size: 20px;
+    }
+    .secSixThree{
+        background-position-x:left;
+    }
+   
+    
+}
+
+
+@media(min-width:992px){
+    .bookBtn a{
+        font-size: 15px;
+    }
+
+    .carouselContent{
+        width: 55%;
+        margin-left: 30px;
+    }
+    
+    .secOneHeadOne h1{
+        font-size: 50px;
+    }
+
+    .secTwoTwo span{
+        font-size: 45px;
+    }
+
+    .sectionThird {
+        height: 100vh;
+    }
+}
+
+
+@media(min-width:1200px){
+    .bookBtn a{
+        font-size: 17px;
+    }
+    
+    .carouselContent{
+        width: 50%;
+        margin-left: 30px;
+    }
+    .secOneHeadOne h1{
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .secTwoTwo span{
+        font-size: 75px;
+    }
+}

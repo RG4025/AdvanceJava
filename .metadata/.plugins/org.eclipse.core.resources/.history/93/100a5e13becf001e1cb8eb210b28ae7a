@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Data</title>
+</head>
+<body>
+
+
+	<%
+	
+		String name = request.getParameter("name");
+		String age = request.getParameter("age");
+		String address = request.getParameter("address");
+		String email = request.getParameter("email");
+		
+		out.println("Hello" + name);
+		
+	%>
+	
+	<%= "Name :"+ name +  + "Age :" + age+ "Address :" + address + " Email :" + email  %>
+	
+	
+	
+
+</body>
+</html>

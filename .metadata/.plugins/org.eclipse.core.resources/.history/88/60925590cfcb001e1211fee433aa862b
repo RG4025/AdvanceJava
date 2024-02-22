@@ -1,0 +1,37 @@
+package com.org;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/GradeCalculatr")
+public class GradeCalculatr extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	
+    public GradeCalculatr() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+			
+		String name = request.getParameter("name");
+		
+		int sub1 = Integer.parseInt(request.getParameter("sub1"));
+		int sub2 = Integer.parseInt(request.getParameter("sub2"));
+		int sub3 = Integer.parseInt(request.getParameter("sub3"));
+		
+		int ave = (sub1 + sub2 + sub3) /3;
+		
+		if(ave >= 90 && ave <= 100) {
+			
+		}
+		
+	}
+
+}

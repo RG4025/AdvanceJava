@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Photography</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <!-- owl-carousel link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- my style sheet -->
+
+    <link rel="stylesheet" href="./contact.css">
+
+</head>
+
+<body>
+
+
+    <!-- Starting the nav and home sectoin here -->
+
+    <section class="sectoinOne" id="Home">
+        <div id="main_nav_fix" class="secOneOne py-1 py-md-3">
+
+            <div class="container">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="MainLogo d-flex align-items-center justify-content-center">
+                            <img src="https://pbs.twimg.com/profile_images/858259960840499201/U1Tji1JT_400x400.jpg"
+                                alt="LOGO">
+                            <h5 class="d-none d-sm-block fs-6 pt-1">
+                                <marquee behavior="scroll" direction="left" class="fw-bold">
+                                    WE CAPTURE YOUR MOMENTS!!
+                                    <i class="bi bi-balloon-heart-fill text-danger"></i>
+                                </marquee>
+                            </h5>
+                        </div>
+
+                        <div class="ms-3">
+                            <button class="toggleNav d-block d-lg-none " type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                <div class="d-block d-lg-none fs-1">
+                                    <span><i class="bi bi-justify fs-1 text-light"></i></span>
+                                </div>
+                            </button>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class=" d-flex justify-content-evenly align-items-center">
+                        <div class="d-none d-lg-block">
+
+                            <ul class="nav">
+
+                                <li class="px-2 mx-2 homeOne"><a href="#">Home <i class="bi bi-caret-down-fill"></i></a>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="../index.html">home 1</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">home 2</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="px-2 mx-2 homeOne"><a href="#">About<i class="bi bi-caret-down-fill"></i></a>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                                href="./aboutIndex.html">About Me</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                                href="../AboutUSPage/AboutUsIndex.html">About Us</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="px-2 mx-2 homeOne"><a href="#">Services<i
+                                            class="bi bi-caret-down-fill"></i></a>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Pre Wedding</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Wedding</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Photoshoot</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">Out-door</a></li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                                href="#">in-door</a></li>
+                                    </ul>
+
+                                </li>
+
+                                <li class="px-2 mx-2 homeOne"><a href="#">Contact</a>
+
+                                    <!-- <ul class="hiddenUL">
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 1</li>
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 2</li>
+                                        </ul> -->
+
+                                </li>
+
+                            </ul>
+
+
+                            <!-- Login Modals Start Here -->
+
+
+
+                            <!-- Login Modals ended Here -->
+                        </div>
+
+
+
+                        <div class="bookBtn ms-3  py-lg-2 d-flex justify-content-around align-items-center">
+
+                            <div class="loginMainSection">
+
+
+                                <li class="list-unstyled px-2 mx-2 homeOne"><b>Login</b><i
+                                        class="bi bi-caret-down-fill"></i>
+
+                                    <ul class="hiddenUL">
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>
+                                            <button data-bs-toggle="modal" data-bs-target="#exampleModalAdmin">
+                                                Admin Login
+                                            </button>
+                                        </li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <button
+                                                data-bs-toggle="modal" data-bs-target="#exampleModalUser">
+                                                User Login
+                                            </button>
+                                        </li>
+                                        <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>
+                                            <button data-bs-toggle="modal" data-bs-target="#exampleModalRegis">
+                                                Registration
+                                            </button>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                            </div>
+                            <div>
+                                <button class="btn btn-danger">
+                                    <a href="#" class="">
+                                        Book Date!
+                                    </a>
+                                </button>
+                            </div>
+
+                            <!-- modal code here -->
+
+                            <!-- Button trigger modal -->
+
+
+                            <!-- Modal Admin -->
+                            <div class="modal fade" id="exampleModalAdmin" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Admin Login</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark text-light">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        required>
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1" required>
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer bg-dark text-light">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal Admin -->
+
+                            <!-- Modal User -->
+
+                            <div class="modal fade" id="exampleModalUser" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">User Login</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark text-light">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        required>
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1" required>
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1"
+                                                        required>
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer bg-dark text-light">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal User -->
+
+
+
+                            <!-- Modal Registration -->
+
+                            <div class="modal fade" id="exampleModalRegis" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-dark">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Registration</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark text-light">
+                                            <form class="fs-6">
+                                                <div class="mb-3 d-flex justify-content-between align-items-center">
+                                                    <div class="container">
+                                                        <label for="exampleInputEmail1" class="form-label">User
+                                                            Name</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            placeholder="Name" required>
+                                                    </div>
+                                                    <div class="container">
+
+                                                        <label for="exampleInputEmail1" class="form-label">Email
+                                                            address</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            placeholder="Email" required>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="mb-3 d-flex justify-content-between align-items-center">
+
+                                                    <div class="container">
+
+                                                        <label for="exampleInputPassword1"
+                                                            class="form-label">Password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="Password" required>
+                                                    </div>
+
+                                                    <div class="container">
+
+                                                        <label for="exampleInputPassword1" class="form-label">Confirm
+                                                            Password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="C Password"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1"
+                                                        required>
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer bg-dark text-light">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal Regiatration -->
+
+                            <!-- modal code here -->
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 70%;">
+            <div class="offcanvas-header bg-dark text-light">
+                <h5 class="offcanvas-title text-light w-100" id="offcanvasWithBothOptionsLabel">
+
+                    <div class="MainLogo d-flex align-items-center justify-content-between">
+
+                        <div>
+
+                            <img src="https://pbs.twimg.com/profile_images/858259960840499201/U1Tji1JT_400x400.jpg"
+                                alt="LOGO" />
+                        </div>
+
+                        <div>
+                            <span>
+                                <a href="#" class="text-decoration-none text-light fs-6">Galary</a>
+                            </span>
+
+                        </div>
+                    </div>
+
+                </h5>
+                <span class=" ms-5" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa-solid fa-circle-xmark text-light"></i></span>
+            </div>
+            <div class="offcanvas-body bg-dark">
+
+                <div class="container">
+                    <div class="d-block">
+
+                        <ul class="MobileViewNav1">
+
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Home <i
+                                        class="bi bi-caret-down-fill"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="../index.html">home 1</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">home 2</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">About<i
+                                        class="bi bi-caret-down-fill"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="./AboutPage/aboutIndex.html">About Me</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="../AboutUSPage/AboutUsIndex.html">About Us</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Services<i
+                                        class="bi bi-caret-down-fill"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Pre Wedding</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Wedding</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Photoshoot</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">Out-door</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i><a
+                                            href="#">in-door</a></li>
+                                </ul>
+
+                            </li>
+                            <!-- <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Login<i
+                                        class="bi bi-arrow-down-short ms-0"></i></a>
+
+                                <ul class="hiddenUL">
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a href="#">
+                                            Admin Login
+                                        </a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="#">Login</a></li>
+                                    <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i> <a
+                                            href="#">Registration</a></li>
+                                </ul>
+
+                            </li> -->
+                            <li class="px-2 mx-2 homeOne MobileViewNav2"><a href="#">Contact</a>
+
+                                <!-- <ul class="hiddenUL">
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 1</li>
+                                            <li class="list-unstyled p-2 "><i class="bi bi-arrow-right-circle"></i>home 2</li>
+                                        </ul> -->
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="w-75">
+                        <p class="d-flex justify-content-around align-items-center">
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-facebook"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-instagram"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-linkedin"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-pinterest"></i></a></span>
+                            <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                        class="bi bi-whatsapp"></i></a></span>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="HomeSection">
+
+
+            <div class="homeImage d-flex justify-content-center align-items-center">
+                <div class="homeSectoinBackDrop d-flex justify-content-center align-items-center">
+
+                    <div class="text-center text-light py-0">
+                        
+                        <div class="d-flex justify-content-around gap-0 text-light">
+                            <div class="container mx-auto py-0 mt-5 mt-md-3">
+
+                                <div class="col-12 col-md-10 col-lg-10 mx-auto">
+                                    <div class="py-3 py-md-4">
+                                        <span class="text-capitalize fw-bolder text-dark">feel free to send your regards!!</span>
+                                    </div>
+                                    <form class="gap-3">
+                                        <div class="row gap-2">
+                                            <div class="col">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your Name...">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+
+                                                <div class="mb-3">
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="pb-3">
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject...">
+                                        </div>
+                                        <div class="pb-3">
+                                            <textarea name="" id="" class="form-control"  rows="3" placeholder="Message"></textarea>
+                                        </div>
+                                        
+                                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                                      </form>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- Ending the nav and home sectoin here -->
+
+
+
+    <!-- Starting the eight section -->
+    <section class="sectionEight text-light py-3 pt-md-4 pb-md-3">
+        <div class="container">
+            <div class="d-sm-flex justify-content-between align-items-center">
+                <div>
+                    <p>Copyright 2024, vsphotography. All right reserved</p>
+                </div>
+                <div>
+                    <p class="d-flex justify-content-around align-items-center">
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-facebook"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-instagram"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-linkedin"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-pinterest"></i></a></span>
+                        <span class="p-2 fs-5"><a class="text-light text-decoration-none" href="#"><i
+                                    class="bi bi-whatsapp"></i></a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ending the eight section -->
+
+    <!-- Bootstrap js CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Counter CDN -->
+    <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"></script>
+
+    <!-- my script -->
+    <script src="./contact.js"></script>
+
+</body>
+
+</html>
